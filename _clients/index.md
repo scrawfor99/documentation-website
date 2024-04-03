@@ -4,8 +4,9 @@ title: Language clients
 nav_order: 1
 has_children: false
 nav_exclude: true
+permalink: /clients/
 redirect_from:
-  - /clients/
+  - /clients/index/
 ---
 
 # OpenSearch language clients
@@ -34,6 +35,9 @@ OpenSearch provides clients for the following programming languages and platform
   * [OpenSearch .NET clients]({{site.url}}{{site.baseurl}}/clients/dot-net/)
 * **Rust**
   * [OpenSearch Rust client]({{site.url}}{{site.baseurl}}/clients/rust/)
+* **Hadoop**
+  * [OpenSearch Hadoop client](https://github.com/opensearch-project/opensearch-hadoop) 
+
 
 For a client compatibility matrix, see the COMPATIBILITY.md file in the client's repository.
 {: .note}
